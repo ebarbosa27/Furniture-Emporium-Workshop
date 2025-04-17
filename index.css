@@ -1,0 +1,76 @@
+body {
+  background-color: #b6a88a;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  font-family: Verdana;
+  color: #131112;
+
+  margin: 0;
+  margin-bottom: 10px;
+  width: 70%;
+  min-width: 300px;
+  max-width: 700px;
+  padding: 0px 20px;
+}
+
+header {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+#pageTitle {
+  font-size: 40px;
+  margin-bottom: -10px;
+}
+
+article {
+  background-color: #ffffff;
+  font-family: Arial;
+
+  margin-bottom: 30px;
+  padding: 10px 20px 20px 20px;
+  border-radius: 10px;
+}
+
+.cardPrice {
+  color: #2c6d59;
+  font-style: bold;
+  font-size: 25px;
+  font-style: bold;
+}
+
+.cardPrice s {
+  color: #808080;
+  font-size: 15px;
+}
+
+article button {
+  background-color: #2c6d59;
+  color: white;
+  font-size: 15px;
+
+  min-width: 100px;
+  width: 30%;
+  height: 50px;
+
+  padding: 15px 10px;
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 2px rgb(53, 53, 53);
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(0.88);
+}
+
+button:active {
+  scale: 0.98;
+  box-shadow: 0px 0px 1px rgb(53, 53, 53);
+}
